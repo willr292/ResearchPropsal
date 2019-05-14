@@ -1,0 +1,59 @@
+\providecommand*{\mcitethebibliography}{\thebibliography}
+\csname @ifundefined\endcsname{endmcitethebibliography}
+{\let\endmcitethebibliography\endthebibliography}{}
+\begin{mcitethebibliography}{5}
+\providecommand*{\natexlab}[1]{#1}
+\providecommand*{\mciteSetBstSublistMode}[1]{}
+\providecommand*{\mciteSetBstMaxWidthForm}[2]{}
+\providecommand*{\mciteBstWouldAddEndPuncttrue}
+  {\def\EndOfBibitem{\unskip.}}
+\providecommand*{\mciteBstWouldAddEndPunctfalse}
+  {\let\EndOfBibitem\relax}
+\providecommand*{\mciteSetBstMidEndSepPunct}[3]{}
+\providecommand*{\mciteSetBstSublistLabelBeginEnd}[3]{}
+\providecommand*{\EndOfBibitem}{}
+\mciteSetBstSublistMode{f}
+\mciteSetBstMaxWidthForm{subitem}
+{\alph{mcitesubitemcount})}
+\mciteSetBstSublistLabelBeginEnd{\mcitemaxwidthsubitemform\space}
+{\relax}{\relax}
+
+\bibitem[Brugha \emph{et~al.}(2012)Brugha, Cooper, McManus, Purdon, Smith,
+  Scott, Spiers, and Tyrer]{brugha2012estimating}
+T.~Brugha, S.~Cooper, S.~McManus, S.~Purdon, J.~Smith, F.~Scott, N.~Spiers,
+  F.~Tyrer, \emph{Estimating the Prevalence of Autism Spectrum Conditions in
+  Adults: Extending the 2007 Adult Psychiatric}, \textbf{2012}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Buescher \emph{et~al.}(2014)Buescher, Cidav, Knapp, and
+  Mandell]{buescher2014costs}
+A.~V. Buescher, Z.~Cidav, M.~Knapp, D.~S. Mandell, \emph{JAMA pediatrics}
+  \textbf{2014}, \emph{168}, 721--728\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Buitelaar(2003)]{buitelaar2003have}
+J.~K. Buitelaar, \emph{Autism: Neural basis and treatment possibilities}
+  \textbf{2003},  235--249\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Rubenstein and Merzenich(2003)]{rubenstein2003model}
+J.~Rubenstein, M.~M. Merzenich, \emph{Genes Brain and Behavior} \textbf{2003},
+  \emph{2}, 255--267\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[all(2017)]{allen2017GLIF}
+\emph{Technical white paper : GLIF models}, the allen institute for brain
+  science technical report, \textbf{2017}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\end{mcitethebibliography}
