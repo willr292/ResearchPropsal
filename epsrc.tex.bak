@@ -76,7 +76,7 @@ Currently only behavioural and pharmacological treatments are available that hel
 \noindent
 Despite recent research linking several genes to autism, the underlying neurological causes are still a mystery. However, the leading theory for the aetiology of autism spectrum disorders is that there is some imbalance in the ratio of excitation to inhibition in the brain. Excitatory signals cause target neurons to fire whilst inhibitory signals suppress target neurons. The ratio of these two signals is called E-I balance. E-I balance is vital in maintaining normal brain function as it regulates the transfer of information throughout the brain. Too much excitation and neurons will constantly spike whereas if there is too much inhibition the neurons will not spike at all. In either of these states no information can be transferred (this is a similar concept to how in binary a series of just 1s or just 0s transfers no information, it is the combination of both in certain patterns that encodes data).
 \\\\
-An early study by Rubenstein and Merzenich \cite{rubenstein2003model} linked some forms of autism with high levels of excitation or low levels of inhibition in brain areas associated with sensory, mnemonic, social and emotional systems. They also postulated that E-I imbalance was caused by both genetic and environmental variables affecting a given neural system. Since then there has been plenty of research into the subject and any links to autism spectrum disorders.
+An early study by Rubenstein and Merzenich \cite{rubenstein2003model} linked some forms of autism with high levels of excitation or low levels of inhibition in brain areas associated with sensory, mnemonic, social and emotional systems. They also postulated that E-I imbalance was caused by both genetic and environmental variables affecting a given neural system. Since then there has been plenty of research into the subject and any links to autism spectrum disorders \cite{gogolla2009common, nelson2015excitatory, cellot2014gabaergic}.
 \\\\
 Excitation-inhibition imbalance has been clearly observed in mouse models of autism spectrum disorders. Pharmacological or cell type-specific gene rescue carried out on these models rescues any autistic like symptoms. These studies into animal models have shown that there is a clear link between E-I imbalance and ASD, however, they are all using invasive techniques such as optogenetics or using genetically modified mice. Obviously these techniques cannot be used in humans, and therefore, we do not know if the mechanisms studied in mice bare any relevance to ASDs in humans. Quantifying the relationship between mouse and human neurons under the influence of different E-I conditions will be the basis of this project. 
 \\
@@ -86,22 +86,41 @@ The simplest model of a neuron is the leaky integrate and fire neuron. This was 
 \\
 \section{Project Objectives}
 \noindent
-The overarching aim of the research will be to investigate the links between E-I imbalance and autism spectrum disorders, and whether there is any substantial difference between the effects of E-I imbalance in human and animal models. This will be done through the use of computational models of neurons which have inputs from both excitatory and inhibitory synapses. Both mouse and human neurons will be simulated with varying inputs. The results from the models will then be compared to see if there is any difference in how sensitive the neurons are to changes in excitatory and inhibitory inputs. 
-\\\\
-To accomplish this a generalised leaky integrate and fire simulator will be written in Python based on the equations proposed in the Allen Institute's GLIF technical paper \cite{allen2017GLIF}. The simulator will allow for inputs from both excitatory and inhibitory synapses. The synapses will be simulated using Poisson spike trains with refractory periods. 
-\\\\
+The overarching aim of the research will be to investigate the links between E-I imbalance and autism spectrum disorders, and whether there is any substantial difference between the effects of E-I imbalance in human and animal models. This will be done through the use of computational models of neurons which have inputs from both excitatory and inhibitory synapses. Both mouse and human neurons will be simulated with varying inputs. The results from the models will then be compared to see if there is any difference in how sensitive the neurons are to changes in excitatory and inhibitory inputs.
+\\
+\subsection{Work package 1:}
+\noindent
+To accomplish this a generalised leaky integrate and fire simulator will be written in Python based on the equations proposed in the Allen Institute's GLIF technical paper \cite{allen2017GLIF}. The simulator will allow for inputs from both excitatory and inhibitory synapses and output a voltage trace and mean firing rate. The synapses will be simulated using Poisson spike trains with refractory periods. Creating the functions for this simulator will make up work package 1.
+\\
+\subsection{Work package 2:}
+\noindent
+Once the simulator is completed several experiments will be conducted using it. 
 The first experiment will examine the effect of changes in synaptic weight on the output of a neuron. A metric will be created for each neuron that shows how sensitive it is to changes  
 \\\\
 The second experiment will involve varying the firing rates of the excitatory and inhibitory synapses and observing the outputs. Again 
 \\\\
 Using doubly stochastic spike trains to correlate
+\\\\
 All the experiments will be run on the 1218 neurons with GLIF models available from the Allen institute. Each experiment will be run several times and results averaged as they will be slightly different given the random nature of the Poisson inputs. Several runs of each simulation combined with the number of neurons means this will be a very compute-intensive project.
+\\
+\subsection{Work package 3:}
+\noindent
+The third work package will contain similar experiments to work package 2. However, instead of running experiments on a single neuron, a network of neurons will be created. This requires many of the individual neuron simulators from work package 1 to be hooked up together. The network will be tested with varying excitatory and inhibitory synaptic weight and output analysed. It will then be tested with varying firing rate for the first layer of neurons. As there are many neurons in the network computation time multiplies, and so, there may not be enough time to simulate all of the neurons available. However, simulating the network with a reasonable subset of the neurons available should still provide some meaningful results that can be analysed.
+\\
+\subsection{Work package 4:}
+\noindent	
+All of the simulators created will be wrapped up in a GUI driven software package that will be distributed open source to the neuroscience community. This will allow experimental neuroscientists, who may not be familiar with programming, to input their neuronal data and conduct similar experiments to those that were done in work package 2 \& 3 without the need to code their own simulations.
+\\
+\subsection{Work package 5:}
+Work package 5 will mainly consist of publicising the findings, 
+%create software package with gui for experimental people. hard for a bio person who doesn't know how to program. technician to do.
+%3 post docs 3 years 20\% of my time supervising 20k a year, conferences for everyone, publication fees, 
+%training time for python for example and neuro background.
 
-\begin{enumerate}[label=\bfseries Work package \arabic*:, align=left]
-	\item Write a GLIF simulator 
-	\item Stimulate the neurons using 
-	
-\end{enumerate}
+2 parallel projects 
+one on single neurons
+one with bigger networks 
+contingencies
 
 \part{Budget}
 \begin{itemize}
@@ -120,7 +139,14 @@ All the experiments will be run on the 1218 neurons with GLIF models available f
  \hline
  PhD Student   & To do some research  &  $\pounds 100,000$\\
  PhD Student   & To do some research  &  $\pounds 100,000$\\
+ Conferences  & 4 Researchers and myself to go to one conference each year for the three years of the project. Including travel expenses, accommodation, food and conference fees.  &  $\pounds 100,000$\\
+ Technician   & To help with creating the software package. Most likely a graduate with programming experience   &  $\pounds 30,000$\\
+ Publishing costs   & Cost of publishing a paper to   &  $\pounds 100$\\
+ Salary   & I will devote 20\% of my time to overseeing the project   &  $\pounds 20,000$\\
  \hline
+ \hline
+ & Total & $\pounds 100,000$ \\
+  \hline
 \end{tabular}
 \end{center}
 
@@ -128,10 +154,26 @@ All the experiments will be run on the 1218 neurons with GLIF models available f
 
 \part{Impact plan}
 distributed to therapeutics companies?
+Myself and the PhD students and Post Docs will attend the Bernstein computational neuroscience conference each year of the project. In the final third year of the project we will present our findings and software to 
 %https://www.researchgate.net/profile/Stefano_Pallanti2/publication/283082180_Excitatoryinhibitory_imbalance_in_autism_spectrum_disorders_Implications_for_interventions_and_therapeutics/links/562dbeef08ae22b17034c69b.pdf
 paper published?
+engage with public. parents of autistic children usually interested in work
 \part{Work plan}
 %ust pgfgantt
+\vspace{0.2cm}
+\begin{ganttchart}[vgrid, hgrid, x unit=1.1cm, bar/.style={fill=gray!50}]{1}{12}
+\gantttitle{2020}{4}
+\gantttitle{2021}{4}
+\gantttitle{2022}{4}\\
+\gantttitlelist{1,2,3,4,1,2,3,4,1,2,3,4}{1}\\
+\ganttbar{Training}{1}{1}\\
+\ganttbar{Work package 1}{2}{3}\\
+\ganttbar{Work package 2}{4}{7}\\
+\ganttbar{Work package 3}{4}{7}\\
+\ganttbar{Publications}{8}{10}\\
+\ganttbar{Work package 4}{8}{11}\\
+
+\end{ganttchart}
 
 \bibliographystyle{angew}
 \bibliography{refs}

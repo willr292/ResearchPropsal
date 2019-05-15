@@ -1,7 +1,7 @@
 \providecommand*{\mcitethebibliography}{\thebibliography}
 \csname @ifundefined\endcsname{endmcitethebibliography}
 {\let\endmcitethebibliography\endthebibliography}{}
-\begin{mcitethebibliography}{5}
+\begin{mcitethebibliography}{8}
 \providecommand*{\natexlab}[1]{#1}
 \providecommand*{\mciteSetBstSublistMode}[1]{}
 \providecommand*{\mciteSetBstMaxWidthForm}[2]{}
@@ -45,6 +45,28 @@ J.~K. Buitelaar, \emph{Autism: Neural basis and treatment possibilities}
 \bibitem[Rubenstein and Merzenich(2003)]{rubenstein2003model}
 J.~Rubenstein, M.~M. Merzenich, \emph{Genes Brain and Behavior} \textbf{2003},
   \emph{2}, 255--267\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Gogolla \emph{et~al.}(2009)Gogolla, LeBlanc, Quast, S{\"u}dhof,
+  Fagiolini, and Hensch]{gogolla2009common}
+N.~Gogolla, J.~J. LeBlanc, K.~B. Quast, T.~C. S{\"u}dhof, M.~Fagiolini, T.~K.
+  Hensch, \emph{Journal of neurodevelopmental disorders} \textbf{2009},
+  \emph{1}, 172\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Nelson and Valakh(2015)]{nelson2015excitatory}
+S.~B. Nelson, V.~Valakh, \emph{Neuron} \textbf{2015}, \emph{87}, 684--698\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Cellot and Cherubini(2014)]{cellot2014gabaergic}
+G.~Cellot, E.~Cherubini, \emph{Frontiers in pediatrics} \textbf{2014},
+  \emph{2}, 70\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
