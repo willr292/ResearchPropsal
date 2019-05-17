@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.11.20)  16 MAY 2019 00:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.11.20)  17 MAY 2019 15:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1145,24 +1145,24 @@ LaTeX Warning: Label `fig:synapse' multiply defined.
 )
 \openout1 = `epsrc.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 37.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 40.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 37.
+(Font)              scaled to size 10.40245pt on input line 40.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1172,15 +1172,15 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
-* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=483.69687pt
-* \textheight=731.23584pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
-* \topmargin=-52.36449pt
+* \textwidth=455.24411pt
+* \textheight=702.78308pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-38.1381pt
 * \headheight=20.0pt
 * \headsep=25.0pt
 * \topskip=11.0pt
@@ -1258,37 +1258,37 @@ File: siunitx-abbreviations.cfg 2016/03/01 v2.6q siunitx: Abbreviated units
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `default' on line 37.
+. Activating mapping `default' on line 40.
 .................................................
  ABD: EveryShipout initializing macros
 \c__siunitx_mathsf_int=\count327
-LaTeX Font Info:    Try loading font information for U+msa on input line 37.
+LaTeX Font Info:    Try loading font information for U+msa on input line 40.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 37.
+LaTeX Font Info:    Try loading font information for U+msb on input line 40.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 \c__siunitx_mathtt_int=\count328
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 13.67995pt on input line 43.
+(Font)              scaled to size 13.67995pt on input line 46.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 43.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 46.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 13.67995pt on input line 43.
+(Font)              scaled to size 13.67995pt on input line 46.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 46.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 49.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.40245pt on input line 46.
+(Font)              scaled to size 10.40245pt on input line 49.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 46.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 49.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 46.
+(Font)              scaled to size 11.39996pt on input line 49.
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--51
+Underfull \hbox (badness 10000) in paragraph at lines 50--54
 
  []
 
@@ -1296,39 +1296,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--51
 File: img/Synapse_khan.png Graphic file (type png)
 
 <use img/Synapse_khan.png>
-Package pdftex.def Info: img/Synapse_khan.png used on input line 53.
-(pdftex.def)             Requested size: 338.58632pt x 115.12196pt.
+Package pdftex.def Info: img/Synapse_khan.png used on input line 56.
+(pdftex.def)             Requested size: 318.66948pt x 108.35062pt.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 54.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 57.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 10.40245pt on input line 54.
+(Font)              scaled to size 10.40245pt on input line 57.
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 54.
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 57.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 54.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 57.
 LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
-(Font)              scaled to size 10.40245pt on input line 54.
+(Font)              scaled to size 10.40245pt on input line 57.
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--63
+
+ []
 
 <img/Action_potential.png, id=6, 510.2262pt x 292.6935pt>
 File: img/Action_potential.png Graphic file (type png)
 
 <use img/Action_potential.png>
-Package pdftex.def Info: img/Action_potential.png used on input line 62.
-(pdftex.def)             Requested size: 338.58632pt x 194.2323pt.
+Package pdftex.def Info: img/Action_potential.png used on input line 65.
+(pdftex.def)             Requested size: 318.66948pt x 182.80792pt.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 69.
+(Font)              scaled to size 7.59998pt on input line 72.
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--75
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--75
+Underfull \hbox (badness 10000) in paragraph at lines 71--78
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--75
+Underfull \hbox (badness 10000) in paragraph at lines 71--78
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--78
 
  []
 
@@ -1336,103 +1340,178 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--75
 Non-PDF special ignored!{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/upd
 map/pdftex.map}
 
- <./img/Synapse_khan.png> <./img/Action_potential.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 76--83
+ <./img/Synapse_khan.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 79--86
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--83
+Underfull \hbox (badness 10000) in paragraph at lines 79--86
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--83
+Underfull \hbox (badness 10000) in paragraph at lines 79--86
+
+ []
+
+[2 <./img/Action_potential.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 87--92
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--87
+Underfull \hbox (badness 10000) in paragraph at lines 87--92
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--91
-
- []
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 92--95
+Underfull \hbox (badness 10000) in paragraph at lines 93--96
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--106
+Underfull \hbox (badness 10000) in paragraph at lines 97--100
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--106
+Underfull \hbox (badness 10000) in paragraph at lines 101--112
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--106
+Underfull \hbox (badness 10000) in paragraph at lines 101--112
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--106
+Underfull \hbox (badness 10000) in paragraph at lines 101--112
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--110
+Underfull \hbox (badness 10000) in paragraph at lines 101--112
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--114
+Underfull \hbox (badness 10000) in paragraph at lines 101--112
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+phv on input line 127.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsphv.fd
-File: omsphv.fd 
-)
-LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 127.
- [3]
+Underfull \hbox (badness 10000) in paragraph at lines 113--116
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 117--120
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--124
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+[]|\T1/phv/m/n/10.95 Post-doctoral
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+[]|\T1/phv/m/n/10.95 Post-doctoral
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--145
+[]|\T1/phv/m/n/10.95 Publishing
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 154--163
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--163
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--163
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--163
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 164--175
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--175
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--175
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--175
+
+ []
+
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 162.
+(Font)              scaled to size 9.49997pt on input line 179.
 
-(./epsrc.bbl [4]) [5] (./epsrc.aux)
+Overfull \hbox (2.46127pt too wide) in paragraph at lines 189--190
+[] 
+ []
+
+[6] (./epsrc.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 192--4
+
+ []
+
+) [7] (./epsrc.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 29825 strings out of 493014
- 618790 string characters out of 6133350
- 655016 words of memory out of 5000000
- 32901 multiletter control sequences out of 15000+600000
+ 29812 strings out of 493014
+ 618626 string characters out of 6133350
+ 653219 words of memory out of 5000000
+ 32891 multiletter control sequences out of 15000+600000
  35981 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,11n,66p,10415b,692s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,12n,66p,10415b,692s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
 xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
-ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
-ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texliv
-e/2016/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/
-texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2016/texmf-
-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/fo
-nts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on epsrc.pdf (5 pages, 250627 bytes).
+ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016
+/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2016/texmf
+-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/f
+onts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on epsrc.pdf (7 pages, 251580 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
+ 65 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 

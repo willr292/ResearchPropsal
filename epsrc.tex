@@ -8,6 +8,9 @@
 \usepackage{amsfonts}
 \usepackage{pgfgantt}
 \usepackage{siunitx}
+\usepackage[numbers]{natbib}
+\usepackage{array}
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
 
 %required for wrapping text around figures
 \usepackage{wrapfig}
@@ -56,7 +59,7 @@ The mammalian brain is made up of several billion neurons. Neurons consist of a 
 \end{figure}
 
 \noindent
-In some cases this neurotransmitter will cause the post synaptic neuron to depolarise and therefore more likely to create an action potential, this is called an excitatory post synaptic potential. Otherwise the neurotransmitter will cause the membrane potential to decrease and the neuron will be less likely to create an action potential, this is called an inhibitory post synaptic potential.
+In some cases this neurotransmitter will cause the post synaptic neuron to depolarise and therefore more likely to create an action potential, this is called an excitatory post synaptic potential. Otherwise the neurotransmitter will cause the membrane potential to decrease and the neuron will be less likely to create an action potential, this is called an inhibitory post synaptic potential.\\
 
 \begin{figure}[ht]
   \includegraphics[width=0.7\linewidth]{img/Action_potential.png}
@@ -82,7 +85,9 @@ Excitation-inhibition imbalance has been clearly observed in mouse models of aut
 \\
 \section{Integrate and fire models}
 \noindent
-The simplest model of a neuron is the leaky integrate and fire neuron. This was proposed in 1907 by Louis Lapicque who modelled a neuron as a resistor and capacitor in series. 
+The simplest model of a neuron is the leaky integrate and fire neuron. This was proposed in 1907 by Louis Lapicque who modelled a neuron as a resistor and capacitor in series.
+\\\\
+As there is such a diverse range of neurons in the mammalian cortex the standard leaky integrate and fire does not emulate them all. Therefore for the simulator the leaky integrate and fire neuron will be enhanced with a number of generalisations. These generalisations will be based upon the ones described in \citeauthor{teeter2018generalized}\cite{teeter2018generalized} and will include after-spike current, threshold adaptation and biologically defined reset rules.
 \\
 \section{Project Objectives}
 \noindent
@@ -94,14 +99,15 @@ To accomplish this a generalised leaky integrate and fire simulator will be writ
 \\
 \subsection{Work package 2:}
 \noindent
-Once the simulator is completed several experiments will be conducted using it. 
-The first experiment will examine the effect of changes in synaptic weight on the output of a neuron. A metric will be created for each neuron that shows how sensitive it is to changes  
+Once the simulator is completed several experiments will be conducted using it. The first experiment will examine the effect of changes in synaptic weight on the output of a neuron. Excitatory and Inhibitory weights will be varied and changes in output firing rate observed. 
 \\\\
 The second experiment will involve varying the firing rates of the excitatory and inhibitory synapses and observing the outputs. Again 
 \\\\
-Using doubly stochastic spike trains to correlate
+Using a doubly stochastic Poisson process, spike trains will be created according to a correlation matrix. This allows testing of the effects of correlation between the excitatory and inhibitory inputs. It will also the excitatory synapse inputs to be correlated with each other and similarly with the inhibitory inputs. 
 \\\\
 All the experiments will be run on the 1218 neurons with GLIF models available from the Allen institute. Each experiment will be run several times and results averaged as they will be slightly different given the random nature of the Poisson inputs. Several runs of each simulation combined with the number of neurons means this will be a very compute-intensive project.
+\\\\
+Finally, a metric will be created for each neuron that encapsulates how sensitive it is to imbalances in synaptic weight and synaptic firing rate. These can then be compared between human and mouse neurons to see if there is any difference.
 \\
 \subsection{Work package 3:}
 \noindent
@@ -112,52 +118,63 @@ The third work package will contain similar experiments to work package 2. Howev
 All of the simulators created will be wrapped up in a GUI driven software package that will be distributed open source to the neuroscience community. This will allow experimental neuroscientists, who may not be familiar with programming, to input their neuronal data and conduct similar experiments to those that were done in work package 2 \& 3 without the need to code their own simulations.
 \\
 \subsection{Work package 5:}
-Work package 5 will mainly consist of publicising the findings, 
-%create software package with gui for experimental people. hard for a bio person who doesn't know how to program. technician to do.
-%3 post docs 3 years 20\% of my time supervising 20k a year, conferences for everyone, publication fees, 
-%training time for python for example and neuro background.
-
-2 parallel projects 
-one on single neurons
-one with bigger networks 
-contingencies
+\noindent
+Work package 5 will mainly consist of distributing results and software. Firstly, a paper publicising the findings of work package 2 \& 3 will be written and submitted to eLife journal. The software created in work package 4 will be documented and then distributed freely and open source. Hopefully this will allow others to contribute more features and will aid in uptake of the software. A two day workshop will also be run during work package 5 to instruct a group of 30 experimental neuroscientists in how to use the software. Finally all of the findings and software will be presented at the Bernstein computational neuroscience conference in Berlin. 
+\\
+\section{Management plan}
+\noindent
+I will take responsibility for overall coordination and management of the project. The two PDRAs will lead on work package 2 \& 3 respectively and will have responsibility for one PhD student each to assist them. As work package 2 \& 3 contain similar experiments, the two PDRAs will meet regularly with each other and myself to discuss findings and to keep everyone up to date on progress.
+\\\\
+Work package 5 will require a technician to be hired to assist in the creation of the software package. The technician will collaborate with the two PDRAs and PhD students as they will have direct experience with the simulator and will know what features to concentrate efforts upon.
 
 \part{Budget}
-\begin{itemize}
-\item computer
-\item phd student or two
-\item brain simulation software. maybe 
-\item cost of publishing a paper
-\end{itemize}
-
+\vspace{8pt}
 \begin{center}
-\begin{tabular}{ p{3cm} p{7cm} p{3cm} }
+\begin{tabular}{ p{2.5cm} p{7cm} P{3cm} }
  \hline
  %\multicolumn{3}{c}{Budget} \\
  Description & Purpose & Cost\\
  \hline
- PhD Student   & To do some research  &  $\pounds 100,000$\\[5pt]
- PhD Student   & To do some research  &  $\pounds 100,000$\\[5pt]
- Conferences  & 4 Researchers and myself to go to one conference each year for the three years of the project. Including travel expenses, accommodation, food and conference fees.  &  $\pounds 100,000$\\[5pt]
- Technician   & To help with creating the software package. Most likely a graduate with programming experience   &  $\pounds 30,000$\\[5pt]
- Publishing costs   & Cost of publishing a paper to   &  $\pounds 100$\\[5pt]
+ Post-doctoral researcher   & For the 3 years. Will lead on work package 2. &  $\pounds 300,000$\\[5pt]
+ Post-doctoral researcher   & For the 3 years. Will lead on work package 3.  &  $\pounds 300,000$\\[5pt]
+ PhD student   & To do some research. Assist on work package 2.  &  $\pounds 100,000$\\[5pt]
+ PhD student   & To do some research. Assist on work package 3.  &  $\pounds 100,000$\\[5pt]
+ Computers   & 6 MacBook Pros for all of the researchers and technician at $\pounds 2,000$ each \& 1 Mac Pro work station at $\pounds 5,000$ &  $\pounds 17,000$\\[5pt]
+ Conferences  & 4 Researchers and myself to go to one international conference each year for the three years of the project. Including travel expenses, accommodation, food and conference fees at $\pounds 1,500$ per person per conference.  &  $\pounds 22,500$\\[5pt]
+ Technician   & To help with creating the software package. Most likely a computer science graduate with programming experience, preferably in UI design.   &  $\pounds 30,000$\\[5pt]
+ Publishing costs   & Cost of publishing a paper to eLife journal at $ \$ 2500 $ & $\pounds 1,950$\\[5pt]
  Salary   & I will devote 20\% of my time to overseeing the project   &  $\pounds 20,000$\\[5pt]
-\cline{3-3}
- & & $\pounds 100,000$ \\
+ Workshop   & 2 day workshop for 30 participants, including catering and room hire. &  $\pounds 2,200$\\[5pt]
+\cline{3-3}\\
+ & & $ \pounds 893,650 $ \\
 \end{tabular}
 \end{center}
 
 \part{Justification for resources}
-
+\noindent
+A technician is required to help build the software package and GUI. This is because the researchers will be computational neuroscientists and will not have much if any experience in building this type of application. The technician will also be able on hand to help during the workshop to clear up any technical problems.
+\\\\
+The computational neuroscience conferences attended by the project participants will help to keep the researchers up to date with the current state of the field as well as allowing them to discuss finding with other academics. 
+\\\\
+All participants will require computers to complete work on, these will be MacBook Pros to allow efficient work and also act as a good testing benchmark for software created in work package 4. A powerful workstation is also required as the programming tasks during work package 2, 3 \& 5 will be very iterative and compute intensive. This will take the form of a single 8-core Mac Pro server.
+\\\\
+The workshop run during work package 5 will also incur costs. Firstly to book a room at the University of Bristol ($\pounds 400$ per day for two days, totalling $\pounds 800$) and secondly to provide catering for the 30 participants and 5 presenters ($\pounds 20$ per person, per day, totalling $\pounds 1,400$).
+\\
 \part{Impact plan}
-distributed to therapeutics companies?
-Myself and the PhD students and Post Docs will attend the Bernstein computational neuroscience conference each year of the project. In the final third year of the project we will present our findings and software to 
-%https://www.researchgate.net/profile/Stefano_Pallanti2/publication/283082180_Excitatoryinhibitory_imbalance_in_autism_spectrum_disorders_Implications_for_interventions_and_therapeutics/links/562dbeef08ae22b17034c69b.pdf
-paper published?
+\noindent
+Myself and the PhD students and Post Docs will attend one international computational neuroscience conference each year of the project (Most likely the Bernstein conference in Berlin or the CNS meeting in Barcelona). In the final third year of the project we will present our findings and software to one of these conferences. 
+\\\\
+A paper publishing the findings will be submitted to eLife journal, a well respected scientific journal with a 2017 impact factor of 7.6. eLife has a neuroscience section that will help publicise findings and software to both computational and experimental neuroscientists. Upon submission the paper will also be uploaded to biorxiv.org (a free pre-print service) to make our findings immediately available to the scientific community.
+\\\\
+The project will reach out to the National Autistic Society to help with evaluations and best practice within the project. Collaborating with the national autistic society will hopefully allow us to set-up talks for the general public who have been affected by autism. This will mainly be for parents of autistic children who are usually interested in any new research. The National Autistic society will also be able to publicise our findings through their social media to further increase visibility (e.g. through their twitter account which currently has 161,000 followers).
+\\\\
+The projects findings will also be distributed to therapeutics companies who are currently developing pharmacological treatments for autism. Depending on the results of the project, it will either reinforce the usefulness of drugs developed based on mouse models or cause a change in course. 
+ \\\\
+Considering the high prevalence of autism spectrum disorders and incurred cost to the economy, research into possible are inherently valuable to the general public. Therefore research such as this that will hopefully advance the creation of pharmacological therapeutics for autism will have an impact 
 engage with public. parents of autistic children usually interested in work
 \part{Work plan}
 %ust pgfgantt
-\vspace{0.2cm}
+\vspace{0.4cm}
 \begin{ganttchart}[vgrid, hgrid, x unit=1.1cm, bar/.style={fill=gray!50}]{1}{12}
 \gantttitle{2020}{4}
 \gantttitle{2021}{4}
@@ -167,11 +184,15 @@ engage with public. parents of autistic children usually interested in work
 \ganttbar{Work package 1}{2}{3}\\
 \ganttbar{Work package 2}{4}{7}\\
 \ganttbar{Work package 3}{4}{7}\\
-\ganttbar{Publications}{8}{10}\\
-\ganttbar{Work package 4}{8}{11}\\
-
+\ganttbar{Work package 4}{8}{10}\\
+\ganttbar{Work package 5}{9}{12}\\
 \end{ganttchart}
 
+\vspace{0.4cm}
+\noindent The training section will consist of making sure all involved are proficient in the use of Python and ensuring that they are up to date with the literature surrounding E-I imbalance theories. Researchers will also be taught statistical methods for multivariate analysis which will be particularly useful in analysing results during work package 2 \& 3. This section will also allow time for hiring a technician to assist with work package 4.
+\\\\
+Elemnents of work package 5 can be completed without the completion of work package 4, hence the overlap. However distribution of any software will need to wait for work package 4 to be completed. 
+\vspace{12pt}
 \bibliographystyle{angew}
 \bibliography{refs}
 \end{document}

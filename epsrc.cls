@@ -6,7 +6,7 @@
 
 \LoadClass[11pt,onecolumn,a4paper,notitlepage]{article}
 
-\RequirePackage[margin=2cm]{geometry}
+\RequirePackage[margin=2.5cm]{geometry}
 
 %natbib required for angew bst and to reduce spacing
 \RequirePackage[super,sort&compress,numbers,]{natbib}

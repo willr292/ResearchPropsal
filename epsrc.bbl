@@ -1,7 +1,7 @@
 \providecommand*{\mcitethebibliography}{\thebibliography}
 \csname @ifundefined\endcsname{endmcitethebibliography}
 {\let\endmcitethebibliography\endthebibliography}{}
-\begin{mcitethebibliography}{8}
+\begin{mcitethebibliography}{10}
 \providecommand*{\natexlab}[1]{#1}
 \providecommand*{\mciteSetBstSublistMode}[1]{}
 \providecommand*{\mciteSetBstMaxWidthForm}[2]{}
@@ -71,9 +71,26 @@ G.~Cellot, E.~Cherubini, \emph{Frontiers in pediatrics} \textbf{2014},
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
 \EndOfBibitem
+\bibitem[Teeter \emph{et~al.}(2018)Teeter, Iyer, Menon, Gouwens, Feng, Berg,
+  Szafer, Cain, Zeng, Hawrylycz,\emph{et~al.}]{teeter2018generalized}
+C.~Teeter, R.~Iyer, V.~Menon, N.~Gouwens, D.~Feng, J.~Berg, A.~Szafer, N.~Cain,
+  H.~Zeng, M.~Hawrylycz \emph{et~al.}, \emph{Nature communications}
+  \textbf{2018}, \emph{9}, 709\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
 \bibitem[all(2017)]{allen2017GLIF}
 \emph{Technical white paper : GLIF models}, the allen institute for brain
   science technical report, \textbf{2017}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Uzunova \emph{et~al.}(2016)Uzunova, Pallanti, and
+  Hollander]{uzunova2016excitatory}
+G.~Uzunova, S.~Pallanti, E.~Hollander, \emph{The World Journal of Biological
+  Psychiatry} \textbf{2016}, \emph{17}, 174--186\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
